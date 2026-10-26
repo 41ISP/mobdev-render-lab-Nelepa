@@ -8,14 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="container">
-        <h1>🎵 Мой плейлист</h1>
+<<body>
+    <div class="playlist">
+        <!-- Шапка -->
+        <div class="playlist-header">
+            <h1>🎵 
+ Мой плейлист</h1>
+            <div class="playlist-stats">
+                <span>Треков: <span id="total-tracks">0</span></span>
+                <span>Общая длительность: <span id="total-duration">0 ч 0 мин</span></span>
+            </div>
+        </div>
 
-        <div id="statsContainer" class="stats"></div>
-
-        <ul id="tracksContainer" class="tracks-list"></ul>
+        <!-- Сюда будут вставляться треки -->
+        <ul id="tracks-container" class="track-list">
+            <!-- Треки появятся здесь благодаря JS -->
+        </ul>
     </div>
+    
+    <script src="index.js"></script>
 </body>
+ 
 
 </html>
