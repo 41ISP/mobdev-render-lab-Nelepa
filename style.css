@@ -269,4 +269,30 @@ h1 {
     .track-number {
         width: 30px;
     }
+    
+.track-meta .duration {
+    background-color: #ff4d4d; /* Красный */
+    color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.track-meta .popularity {
+    background-color: #00d2ff;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.track-meta {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 }
